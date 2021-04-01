@@ -19,10 +19,21 @@ form.addEventListener('submit', (event) => {
   listElement.appendChild(bookAuthor)
   listElement.appendChild(bookCategory)
   document.getElementById('new-item-form').reset();
+  
 
 })
 
+  const deleteButton = document.createElement('button')
+  deleteButton.textContent = 'Delete All'
+  const list = document.querySelector('#reading-list');
+  list.appendChild(deleteButton);
+
+  deleteButton.addEventListener('click', () => {
+    list.removeChild()
+  })
+
 })
+
 
 
 
