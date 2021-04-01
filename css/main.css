@@ -1,3 +1,42 @@
 body {
   font-family: Palatino;
+  margin: 20px
+}
+
+#form-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
+  align-content: stretch;
+  margin-bottom: 20px;
+}
+
+#reading-list {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 15px;
+  list-style: none;
+  padding-left: 0;
+  align-content: stretch;
+}
+
+#reading-list > li {
+  border: teal 2px solid;
+  border-radius: 8px; 
+  background-color: lightcyan;
+  padding: 10px;
+}
+
+#title, #author, #category {
+  border: teal 2px solid;
+  border-radius: 8px;
+}
+
+#submit {
+  margin-bottom: 10px;
+}
+
+#form-item {
+  display: flex;
+  flex-flow: column
 }
